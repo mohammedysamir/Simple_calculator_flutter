@@ -172,7 +172,7 @@ class SimpleCalculatorState extends State<SimpleCalculator> {
                   buildSimpleButton(
                       text: ".", buttonBackgroundColor: Colors.black54),
                   buildSimpleButton(
-                      text: "π", buttonBackgroundColor: Colors.black54),
+                      text: "^", buttonBackgroundColor: Colors.black54),
                   buildSimpleButton(
                       text: "=", buttonBackgroundColor: Colors.blueAccent),
                 ]),
