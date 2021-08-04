@@ -31,8 +31,8 @@ class SimpleCalculatorState extends State<SimpleCalculator> {
       if (text == "C") {
         expression = "0";
         result = "0";
-        expressionFontSize = 30.0;
-        resultFontSize = 45.0;
+        expressionFontSize = 45.0;
+        resultFontSize = 30.0;
       } else if (text == "⌫") {
         if (expression != "") {
           expression = expression.substring(0, expression.length - 1);
